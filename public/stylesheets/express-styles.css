@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div.flexOuterCol {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+div.flexOuterCenter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  opacity: 0.9;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.75em;
+  font-size: 18px;
+  border: 2px solid cornflowerblue;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+img.medThumb {
+  height: 150px;
+  width: 150px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+span.linky {
+  font-size: 18px;
+  padding: 0.4em;
+}
